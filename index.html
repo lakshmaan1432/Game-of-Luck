@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Game of Luck</h1>
+<h5>Click on a spot in the field to get either gold or mud. If you get 3 gold pieces out of 6 attempts, you win!</h5>
+    <div class="container">
+
+        <div class="Game">
+            <table>
+                <tr>
+                    <td>
+                        <button ><img id="1" onclick="dig(1)" src="https://static.vecteezy.com/system/resources/thumbnails/008/949/167/small/green-lawn-view-from-top-grass-and-bushes-vector.jpg" alt=""></button>
+                    </td>
+                    <td>
+                        <button ><img id="2" onclick="dig(2)" src="https://static.vecteezy.com/system/resources/thumbnails/008/949/167/small/green-lawn-view-from-top-grass-and-bushes-vector.jpg" alt=""></button>
+                    </td>
+                    <td>
+                        <button ><img id="3" onclick="dig(3)" src="https://static.vecteezy.com/system/resources/thumbnails/008/949/167/small/green-lawn-view-from-top-grass-and-bushes-vector.jpg" alt=""></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button ><img id="4" onclick="dig(4)" src="https://static.vecteezy.com/system/resources/thumbnails/008/949/167/small/green-lawn-view-from-top-grass-and-bushes-vector.jpg" alt=""></button>
+                    </td>
+                    <td>
+                        <button ><img id="5" onclick="dig(5)" src="https://static.vecteezy.com/system/resources/thumbnails/008/949/167/small/green-lawn-view-from-top-grass-and-bushes-vector.jpg" alt=""></button>
+                    </td>
+                    <td>
+                        <button ><img id="6" onclick="dig(6)" src="https://static.vecteezy.com/system/resources/thumbnails/008/949/167/small/green-lawn-view-from-top-grass-and-bushes-vector.jpg" alt=""></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button ><img id="7" onclick="dig(7)" src="https://static.vecteezy.com/system/resources/thumbnails/008/949/167/small/green-lawn-view-from-top-grass-and-bushes-vector.jpg" alt=""></button>
+                    </td>
+                    <td>
+                        <button ><img id="8" onclick="dig(8)" src="https://static.vecteezy.com/system/resources/thumbnails/008/949/167/small/green-lawn-view-from-top-grass-and-bushes-vector.jpg" alt=""></button>
+                    </td>
+                    <td>
+                        <button ><img id="9" onclick="dig(9)" src="https://static.vecteezy.com/system/resources/thumbnails/008/949/167/small/green-lawn-view-from-top-grass-and-bushes-vector.jpg" alt=""></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div class="Score">
+            <h1>Scoreboard</h1>
+            <table border="">
+                <tr>
+                    <td> Gold </td>
+                    <td> Mud </td>
+                </tr>
+                <tr>
+                    <td id="goldScore">0</td>
+                    <td id="mudScore">0</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    
+    <h1 id="result"></h1>
+    
+    <button class="restart-button" onclick="restart()">Restart Game</button>
+    
+    <p>Created By: Lakshmaan</p>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

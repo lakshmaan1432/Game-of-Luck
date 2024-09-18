@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-image: url("https://t3.ftcdn.net/jpg/02/32/82/00/360_F_232820043_89DTWUlvnY2y9jzZYMQTaNIhUrSnhK1g.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    border: solid;
+    display: flex;
+}
+
+.Game {
+    width: 50%;
+
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+.Score {
+    width: 50%;
+  
+}
+
+table {
+   
+    margin: auto;
+}
+
+button {
+    height: 100px;
+    aspect-ratio: 1;
+}
+
+.restart-button{
+    width: 150px;
+    background-image: url("https://png.pngtree.com/png-clipart/20230814/original/pngtree-small-pond-with-a-bridge-image-clip-wooden-bridge-vector-picture-image_10626466.png");
+    background-size: cover;
+}
